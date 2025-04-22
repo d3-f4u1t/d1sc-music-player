@@ -21,6 +21,11 @@ A simple, lightweight music player built with **Python** using **Tkinter** for t
 - **pydub** - For audio file conversion.
 - **FFmpeg** - For decoding audio files.
 
+##Looks
+
+![Screenshot of d1sc Music Player](assets/SS vr0.1.png)
+
+
 ## Setup Instructions 📋
 
 ### 1. Clone the repository
@@ -32,5 +37,4 @@ git clone https://github.com/your-username/d1sc-music-player.git
 cd d1sc-music-player
 
 
-![Screenshot of d1sc Music Player](assets/SS vr0.1.png)
 
