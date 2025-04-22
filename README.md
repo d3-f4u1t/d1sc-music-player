@@ -30,3 +30,7 @@ Clone the repository to your local machine:
 ```bash
 git clone https://github.com/your-username/d1sc-music-player.git
 cd d1sc-music-player
+
+
+![Screenshot of d1sc Music Player](assets/SS vr0.1.png)
+
