@@ -23,7 +23,8 @@ A simple, lightweight music player built with **Python** using **Tkinter** for t
 
 ##Looks
 
-![Screenshot of d1sc Music Player](assets/SS vr0.1.png)
+![Screenshot of d1sc Music Player](assets/SS%20vr0.1.png)
+
 
 
 ## Setup Instructions 📋
