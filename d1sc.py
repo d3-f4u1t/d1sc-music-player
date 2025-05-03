@@ -85,7 +85,7 @@ def play_song_threaded(path, status_callback=None, window=None):
         except Exception as e:
             print(f"Error with {path}: {e}")
             if status_callback:
-                status_callback(f"❌ Error: {e}")
+                status_callback(f"Error: {e}")
             return
 
         # Convert to wav using pydub (supports .m4a and .mp3)
@@ -189,7 +189,7 @@ def setup_ffmpeg():
 # Call this before playing .m4a files
 setup_ffmpeg()
 
-# Explicitly tell pydub where ffmpeg and ffprobe are
+#tell pydub where ffmpeg and ffprobe are
 
 
 #for the music player
@@ -299,7 +299,7 @@ def show_gui(initial_song_list, music_folder):
     )
     title_label.pack(pady=20)
 
-    # 🟢 Define this BEFORE using it inside other functions
+    
     folder_label = tk.Label(
         window, text=f"📁 Folder: {music_folder}",
         font=("Segoe UI", 12),
@@ -309,7 +309,7 @@ def show_gui(initial_song_list, music_folder):
       # Fullscreen on Windows
 
     status_label = tk.Label(
-        window, text="🔈 Ready to play!",
+        window, text="Ready to play!",
         font=("Segoe UI", 14),
         fg="#f1f1f1", bg="#1e1e2f"
     )
